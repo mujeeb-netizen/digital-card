@@ -1,0 +1,33 @@
+{
+  "name": "event-card",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/nextjs-registry": "^1.0.0",
+    "@tanstack/react-query": "^5.14.1",
+    "antd": "^5.12.2",
+    "axios": "^1.6.2",
+    "crypto": "^1.0.1",
+    "file-saver": "^2.0.5",
+    "jspdf": "^2.5.1",
+    "konva": "^9.3.6",
+    "moment": "^2.30.1",
+    "next": "14.0.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^4.12.0",
+    "react-konva": "^18.2.10",
+    "react-konva-utils": "^1.0.6",
+    "use-image": "^1.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4"
+  }
+}

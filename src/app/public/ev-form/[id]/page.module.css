@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  margin-left: auto;
+  box-sizing: border-box;
+  margin-right: auto;
+  display: block;
+  padding-top: 2rem;
+}
+
+@media (min-width: 900px) {
+  .container {
+    max-width: 900px;
+  }
+}
+@media (min-width: 600px) {
+  .container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+.btn_submit {
+  /* margin-block: 1em; */
+  width: 10em;
+  margin-bottom: 1em;
+}

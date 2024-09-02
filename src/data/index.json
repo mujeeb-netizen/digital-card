@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "question": "abc short",
+    "question_type": "short",
+    "placeholder": "short",
+    "error_msg": "def",
+    "required": true
+  },
+  {
+    "id": 2,
+    "question": "abc long",
+    "question_type": "long",
+    "placeholder": "long",
+    "error_msg": "def",
+    "required": false
+  },
+  {
+    "id": 3,
+    "question": "abc Check",
+    "question_type": "check",
+    "options": [
+      { "label": "Apple", "value": "Apple" },
+      { "label": "Pear", "value": "Pear" },
+      { "label": "Orange", "value": "Orange" }
+    ],
+    "error_msg": "def",
+    "required": false
+  },
+  {
+    "id": 4,
+    "question": "abc Radio",
+    "question_type": "radio",
+    "options": [
+      { "label": "Apple", "value": "Apple" },
+      { "label": "Pear", "value": "Pear" },
+      { "label": "Orange", "value": "Orange" }
+    ],
+    "error_msg": "def",
+    "required": false
+  },
+  {
+    "id": 5,
+    "question": "abc Dropdown",
+    "question_type": "dropdown",
+    "placeholder": "dropdown",
+    "options": [
+      { "label": "Apple", "value": "Apple" },
+      { "label": "Pear", "value": "Pear" },
+      { "label": "Orange", "value": "Orange" }
+    ],
+    "error_msg": "def",
+    "required": true
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "responses": [
+    {
+      "question": {
+        "id": 1,
+        "question": "abc short",
+        "question_type": "short",
+        "placeholder": "short",
+        "error_msg": "def",
+        "required": true
+      },
+      "answer": "hello"
+    },
+    {
+      "question": {
+        "id": 2,
+        "question": "abc long",
+        "question_type": "short",
+        "placeholder": "short",
+        "error_msg": "def",
+        "required": true
+      },
+      "answer": "world"
+    },
+    {
+      "question": {
+        "id": 3,
+        "question": "abc radio",
+        "question_type": "short",
+        "placeholder": "short",
+        "error_msg": "def",
+        "required": true
+      },
+      "answer": "world"
+    }
+  ]
+}
